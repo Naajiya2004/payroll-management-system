@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payroll Process</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #000000;
+        }
+        .payroll-container {
+            width: 100%;
+            max-width: 600px;
+            margin: 50px auto;
+            background-color: #B3B3B3;
+            padding: 90px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+        }
+        .payroll-container h1 {
+            font-size: 28px;
+            margin-bottom: 30px;
+            color: #000;
+        }
+        .payroll-form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .payroll-form .form-row {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            margin: 15px 0;
+        }
+        .payroll-form .form-row div {
+            width: 45%;
+            background-color: #D3D3D3;
+            padding: 10px;
+            border-radius: 5px;
+            text-align: center;
+            font-size: 18px;
+            color: #000;
+        }
+        .payroll-form .form-row div:hover {
+            background-color: #A9A9A9;
+        }
+        .payroll-form .button-row {
+            margin-top: 30px;
+            display: flex;
+            justify-content: space-between;
+            width: 60%;
+        }
+        .payroll-form .button-row button {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            background-color: #D3D3D3;
+            color: #000;
+            font-size: 16px;
+            cursor: pointer;
+            width: 45%;
+        }
+        .payroll-form .button-row button:hover {
+            background-color: #A9A9A9;
+        }
+    </style>
+</head>
+<body>
+    <div class="payroll-container">
+        <h1>PAYROLL PROCESS</h1>
+        <div class="payroll-form">
+            <div class="form-row">
+                <div>USERNAME</div>
+                <div>ENTER USERNAME</div>
+            </div>
+            <div class="form-row">
+                <div>PASSWORD</div>
+                <div>ENTER PASSWORD</div>
+            </div>
+            <div class="button-row">
+                <button type="button">LOGIN</button>
+                <button type="button" onclick="window.location.href='administratorprocess.html';">CANCEL </button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>   
